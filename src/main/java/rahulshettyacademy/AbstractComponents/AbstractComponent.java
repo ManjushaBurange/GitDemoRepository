@@ -66,7 +66,17 @@ public class AbstractComponent {
 		OrderPage orderPage = new OrderPage(driver);
 		return orderPage;
 	}
-	
+
+	public OrderPage goOrdersPagefIRST()
+	{
+		orderHeader.click();
+		OrderPage orderPage = new OrderPage(driver);
+		System.out.println("Omkar made changes here");
+		System.out.println("Now omkar will add / push this file to main ");
+		System.out.println("so lets do");
+		return orderPage;
+	}
+
 	
 	public void waitForElementToDisappear(WebElement ele) throws InterruptedException
 	{
