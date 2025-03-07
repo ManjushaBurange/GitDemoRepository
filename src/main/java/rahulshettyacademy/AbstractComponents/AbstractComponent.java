@@ -58,6 +58,16 @@ public class AbstractComponent {
 		OrderPage orderPage = new OrderPage(driver);
 		return orderPage;
 	}
+	
+	
+	public OrderPage goToOrdersPagefIRST()
+	{
+		orderHeader.click();
+		OrderPage orderPage = new OrderPage(driver);
+		return orderPage;
+	}
+	
+	
 	public void waitForElementToDisappear(WebElement ele) throws InterruptedException
 	{
 		Thread.sleep(1000);
